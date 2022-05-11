@@ -1,3 +1,8 @@
-message = 'hello world'
+from ast import Expression
 
-print(message)
+
+def new_func():
+    x = input("Enter an Expression: ")
+    print("Answer:", eval(x))
+
+new_func()
